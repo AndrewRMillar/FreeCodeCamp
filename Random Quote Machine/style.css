@@ -1,0 +1,62 @@
+:root{
+  --basic-color:;
+  
+}
+body {
+  background-color: var(--basic-color);
+  color: var(--basic-color);
+}
+a {
+  color: var(--basic-color);
+}
+.quote p:first-of-type{
+  font-size:18px;
+  font-weight:bold;
+}
+.content {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.row {
+  margin-right:0;
+  margin-left:0;
+}
+.quote-container {
+  border-radius: 5px;
+  padding: 1em;
+  background-color: rgba(255,255,255,0.9);
+}
+.new-quote-btn {
+  cursor:default;
+}
+.btn {
+  transition: color .5s, background-color .5s, border-color .5s;
+}
+.twitter-share-button, .twitter-share-button:focus, .twitter-share-button:visited {
+  color: #fff;
+  background-color: var(--basic-color);
+}
+.new-quote-btn, .new-quote-btn:focus, .new-quote-btn:visited {  
+  color: var(--basic-color);
+  background-color: #fff;
+  border-color: var(--basic-color);
+}
+.twitter-share-button:hover, .twitter-share-button:active {
+  color: var(--basic-color);
+  background-color: #fff;
+  border-color: var(--basic-color);
+}
+.new-quote-btn:hover, .new-quote-btn:active {
+  color: #fff;
+  background-color: var(--basic-color);
+  border-color: #fff;
+}
+.left {
+  float:left;
+}
+.right {
+  float: right;
+}
